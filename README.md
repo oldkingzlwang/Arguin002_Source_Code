@@ -35,7 +35,7 @@ This repository contains supplementary MATLAB codes and associated data files fo
        * Contains bulk trace element compositions of lunar meteorites.
        * Source: Supplementary Table 3a of Korotev & Irving (2021).
   * Output:
-    * A PDF file named fig3.pdf, corresponding to Fig. 3 in the manuscript.
+    * A PDF file named ```fig3.pdf```, corresponding to Fig. 3 in the manuscript.
 ### 4. ```Fig5.m```
   * Purpose: Generates Fig. 5 in the manuscript.
   * Required Data Files:
@@ -43,8 +43,8 @@ This repository contains supplementary MATLAB codes and associated data files fo
        * Contains parental magma REE compositions calculated from reported mineral trace-element compositions of KREEP-free Mg-suite clasts in lunar meteorites.
        * Sources: Cao et al. (2024), Gross et al. (2020), Hulsey & O'Sullivan (2024), Roberts et al. (2019).
     2. Intermediate ```.mat``` files:
-       * ```fig5_mantle.mat```: Generated lunar mantle REE compositions (CI-chondrite unnormalized).
-       * ```fig5_melt.mat```: Generated partial melt REE compositions (CI-chondrite normalized).
+       * ```fig5_mantle.mat```: Lunar mantle REE compositions (CI-chondrite unnormalized) generated from ```Make_primary.m```.
+       * ```fig5_melt.mat```: Partial melt REE compositions (CI-chondrite normalized) generated from ```Make_primary.m```.
   * Additional Required Scripts:
     1. ```Make_primary.m```
        * Reconstructs trace element compositions of a cumulate lunar mantle region.
@@ -57,11 +57,23 @@ This repository contains supplementary MATLAB codes and associated data files fo
     2. ```melt_calc.m```:
        * Models REE contents of partial melts from the lunar mantle region.
        * Requires inputs such as melting degree (F) and melting mode (batch or fractional).
-  * Output: A PDF file named ```fig5.pdf```, corresponding to Fig. 5 in the manuscript.
-### Notes
+  * Output:
+    * A PDF file named ```fig5.pdf```, corresponding to Fig. 5 in the manuscript.
+
+## Notes
   * Ensure all required ```.xlsx``` files and additional scripts (```Make_primary.m```, ```melt_calc.m```) are in the same directory as the main MATLAB scripts before execution.
   * MATLAB R2023b was used to execute these scripts in December 2024.
-### Contact
+
+## References
+Cao, H. J., Chen, J., Yin, C. X., Fu, X. H., Ling, Z. C., Che, X. C. (2024). The lithologic diversity of the Moon recorded in lunar meteorites Northwest Africa 7611 and 10480. *Meteoritics & Planetary Science*, 59(3), 435–474. ```doi:10.1111/maps.14131```.
+Gross, J., Hilton, A., Prissel, T. C., Setera, J. B., Korotev, R. L., and Calzada-Diaz, A. (2020). Geochemistry and Petrogenesis of Northwest Africa 10401: A New Type of the Mg-Suite Rocks. *Journal of Geophysical Research: Planets*, 125, e2019JE006225. ```doi:10.1029/2019JE006225```.
+Elardo, S. M. and Astudillo Manosalva, D. F. (2023). Complexity and ambiguity in the relationships between major lunar crustal lithologies and meteoritic clasts inferred from major and trace element modeling. *Geochimica et Cosmochimica Acta*, 354, 13–26. ```doi:10.1016/j.gca.2023.05.020```.
+Hulsey, C. R., and O’Sullivan, K. M. (2024). Petrographic and geochemical analysis of lunar meteorite NWA 11788: Parallels with Luna 20 and the Apollo magnesian granulites. *Meteoritics & Planetary Science*, 1-26. ```doi: 10.1111/maps.14248```.
+Korotev, R. L., and Irving, A. J. (2021). Lunar meteorites from northern Africa. *Meteoritics & Planetary Science*, 56, 206–240. ```doi:10.1111/maps.13617```.
+Roberts, S. E., McCanta, M. C., Jean, M. M., and Taylor, L. A. (2019). New lunar meteorite NWA 10986: A mingled impact melt breccia from the highlands—A complete cross section of the lunar crust. *Meteoritics & Planetary Science*, 54, 3018–3035. ```doi:10.1111/maps.13406```.
+Shervais, J. W., and McGee, J. J. (1999). Petrology of the Western Highland Province: Ancient crust formation at the Apollo 14 site. *Journal of Geophysical Research*, 104, 5891–5920. ```doi:10.1029/1998JE900025```.
+Wieczorek, M. A., Jolliff, B. L., Khan, A., Pritchard, M. E., Weiss, B. P., Williams, J. G., Hood, L. L., Righter, K., Neal, C. R., Shearer, C. K., McCallum, I. S., Tompkins, S., Hawke, B. R., Peterson, C., and Gillis, J. J. (2006). The Constitution and Structure of the Lunar Interior. *Reviews in Mineralogy and Geochemistry*, 60, 221–364. ```doi:10.2138/rmg.2006.60.3```.
+
+## Contact
 If you encounter any issues, questions, or have suggestions, please contact the author via email: ```zilong.wang@pku.edu.cn```.
 Good luck!
-
