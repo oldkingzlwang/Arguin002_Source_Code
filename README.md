@@ -48,7 +48,7 @@ This repository contains supplementary MATLAB codes and associated data files fo
   * Additional Required Scripts:
     1. ```Make_primary.m```
        * Reconstructs trace element compositions of a cumulate lunar mantle region.
-       * Uses the makemantle ```function``` and needs to specify:
+       * Uses the ```makemantle``` function and needs to specify:
           * Initial REE composition of the lunar magma ocean (LMO).
           * LMO crystallization mode (```E11TWM``` and ```E11LPUM``` functions).
           * Solidification degree of the LMO (PCS).
