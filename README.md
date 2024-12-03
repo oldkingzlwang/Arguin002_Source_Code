@@ -32,7 +32,36 @@ This repository contains supplementary MATLAB codes and associated data files fo
   * Purpose: Generates Fig. 3 in the manuscript.
   * Required Data Files:
     1. ```fig3_data.xlsx```:
-      * Contains bulk trace element compositions of lunar meteorites.
-      * Source: Supplementary Table 3a of Korotev & Irving (2021).
+       * Contains bulk trace element compositions of lunar meteorites.
+       * Source: Supplementary Table 3a of Korotev & Irving (2021).
   * Output:
     * A PDF file named fig3.pdf, corresponding to Fig. 3 in the manuscript.
+### 4. ```Fig5.m```
+  * Purpose: Generates Fig. 5 in the manuscript.
+  * Required Data Files:
+    1. ```fig5_data.xlsx```:
+       * Contains parental magma REE compositions calculated from reported mineral trace-element compositions of KREEP-free Mg-suite clasts in lunar meteorites.
+       * Sources: Cao et al. (2024), Gross et al. (2020), Hulsey & O'Sullivan (2024), Roberts et al. (2019).
+    2. Intermediate ```.mat``` files:
+       * ```fig5_mantle.mat```: Generated lunar mantle REE compositions (CI-chondrite unnormalized).
+       * ```fig5_melt.mat```: Generated partial melt REE compositions (CI-chondrite normalized).
+  * Additional Required Scripts:
+    1. ```Make_primary.m```
+       * Reconstructs trace element compositions of a cumulate lunar mantle region.
+       * Uses the makemantle ```function``` and needs to specify:
+          * Initial REE composition of the lunar magma ocean (LMO).
+          * LMO crystallization mode (```E11TWM``` and ```E11LPUM``` functions).
+          * Solidification degree of the LMO (PCS).
+          * Content of trapped instantaneous residual liquid (TIRL).
+       * Calls ```melt_calc.m``` for partial melting REE modeling.
+    2. ```melt_calc.m```:
+       * Models REE contents of partial melts from the lunar mantle region.
+       * Requires inputs such as melting degree (F) and melting mode (batch or fractional).
+  * Output: A PDF file named ```fig5.pdf```, corresponding to Fig. 5 in the manuscript.
+### Notes
+  * Ensure all required ```.xlsx``` files and additional scripts (```Make_primary.m```, ```melt_calc.m```) are in the same directory as the main MATLAB scripts before execution.
+  * MATLAB R2023b was used to execute these scripts in December 2024.
+### Contact
+If you encounter any issues, questions, or have suggestions, please contact the author via email: ```zilong.wang@pku.edu.cn```.
+Good luck!
+
