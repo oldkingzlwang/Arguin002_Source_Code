@@ -28,4 +28,11 @@ This repository contains supplementary MATLAB codes and associated data files fo
        * Sources: Cao et al. (2024), Gross et al. (2020), Hulsey & O'Sullivan (2024), Roberts et al. (2019), Shervais & McGee (1998).
   * Output:
     * A PDF file named ```fig2cde.pdf```, corresponding to Fig. 2c-e in the manuscript.
-
+### 3. ```Fig3.m```
+  * Purpose: Generates Fig. 3 in the manuscript.
+  * Required Data Files:
+    1. ```fig3_data.xlsx```:
+      * Contains bulk trace element compositions of lunar meteorites.
+      * Source: Supplementary Table 3a of Korotev & Irving (2021).
+  * Output:
+    * A PDF file named fig3.pdf, corresponding to Fig. 3 in the manuscript.
