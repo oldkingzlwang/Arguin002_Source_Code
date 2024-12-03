@@ -65,14 +65,14 @@ This repository contains supplementary MATLAB codes and associated data files fo
   * MATLAB R2023b was used to execute these scripts in December 2024.
 
 ## References
-Cao, H. J., Chen, J., Yin, C. X., Fu, X. H., Ling, Z. C., Che, X. C. (2024). The lithologic diversity of the Moon recorded in lunar meteorites Northwest Africa 7611 and 10480. *Meteoritics & Planetary Science*, 59(3), 435–474. ```doi:10.1111/maps.14131```.
-Gross, J., Hilton, A., Prissel, T. C., Setera, J. B., Korotev, R. L., and Calzada-Diaz, A. (2020). Geochemistry and Petrogenesis of Northwest Africa 10401: A New Type of the Mg-Suite Rocks. *Journal of Geophysical Research: Planets*, 125, e2019JE006225. ```doi:10.1029/2019JE006225```.
-Elardo, S. M. and Astudillo Manosalva, D. F. (2023). Complexity and ambiguity in the relationships between major lunar crustal lithologies and meteoritic clasts inferred from major and trace element modeling. *Geochimica et Cosmochimica Acta*, 354, 13–26. ```doi:10.1016/j.gca.2023.05.020```.
-Hulsey, C. R., and O’Sullivan, K. M. (2024). Petrographic and geochemical analysis of lunar meteorite NWA 11788: Parallels with Luna 20 and the Apollo magnesian granulites. *Meteoritics & Planetary Science*, 1-26. ```doi: 10.1111/maps.14248```.
-Korotev, R. L., and Irving, A. J. (2021). Lunar meteorites from northern Africa. *Meteoritics & Planetary Science*, 56, 206–240. ```doi:10.1111/maps.13617```.
-Roberts, S. E., McCanta, M. C., Jean, M. M., and Taylor, L. A. (2019). New lunar meteorite NWA 10986: A mingled impact melt breccia from the highlands—A complete cross section of the lunar crust. *Meteoritics & Planetary Science*, 54, 3018–3035. ```doi:10.1111/maps.13406```.
-Shervais, J. W., and McGee, J. J. (1999). Petrology of the Western Highland Province: Ancient crust formation at the Apollo 14 site. *Journal of Geophysical Research*, 104, 5891–5920. ```doi:10.1029/1998JE900025```.
-Wieczorek, M. A., Jolliff, B. L., Khan, A., Pritchard, M. E., Weiss, B. P., Williams, J. G., Hood, L. L., Righter, K., Neal, C. R., Shearer, C. K., McCallum, I. S., Tompkins, S., Hawke, B. R., Peterson, C., and Gillis, J. J. (2006). The Constitution and Structure of the Lunar Interior. *Reviews in Mineralogy and Geochemistry*, 60, 221–364. ```doi:10.2138/rmg.2006.60.3```.
+* Cao, H. J., Chen, J., Yin, C. X., Fu, X. H., Ling, Z. C., Che, X. C. (2024). The lithologic diversity of the Moon recorded in lunar meteorites Northwest Africa 7611 and 10480. *Meteoritics & Planetary Science*, 59(3), 435–474. ```doi:10.1111/maps.14131```.
+* Gross, J., Hilton, A., Prissel, T. C., Setera, J. B., Korotev, R. L., and Calzada-Diaz, A. (2020). Geochemistry and Petrogenesis of Northwest Africa 10401: A New Type of the Mg-Suite Rocks. *Journal of Geophysical Research: Planets*, 125, e2019JE006225. ```doi:10.1029/2019JE006225```.
+* Elardo, S. M. and Astudillo Manosalva, D. F. (2023). Complexity and ambiguity in the relationships between major lunar crustal lithologies and meteoritic clasts inferred from major and trace element modeling. *Geochimica et Cosmochimica Acta*, 354, 13–26. ```doi:10.1016/j.gca.2023.05.020```.
+* Hulsey, C. R., and O’Sullivan, K. M. (2024). Petrographic and geochemical analysis of lunar meteorite NWA 11788: Parallels with Luna 20 and the Apollo magnesian granulites. *Meteoritics & Planetary Science*, 1-26. ```doi: 10.1111/maps.14248```.
+* Korotev, R. L., and Irving, A. J. (2021). Lunar meteorites from northern Africa. *Meteoritics & Planetary Science*, 56, 206–240. ```doi:10.1111/maps.13617```.
+* Roberts, S. E., McCanta, M. C., Jean, M. M., and Taylor, L. A. (2019). New lunar meteorite NWA 10986: A mingled impact melt breccia from the highlands—A complete cross section of the lunar crust. *Meteoritics & Planetary Science*, 54, 3018–3035. ```doi:10.1111/maps.13406```.
+* Shervais, J. W., and McGee, J. J. (1999). Petrology of the Western Highland Province: Ancient crust formation at the Apollo 14 site. *Journal of Geophysical Research*, 104, 5891–5920. ```doi:10.1029/1998JE900025```.
+* Wieczorek, M. A., Jolliff, B. L., Khan, A., Pritchard, M. E., Weiss, B. P., Williams, J. G., Hood, L. L., Righter, K., Neal, C. R., Shearer, C. K., McCallum, I. S., Tompkins, S., Hawke, B. R., Peterson, C., and Gillis, J. J. (2006). The Constitution and Structure of the Lunar Interior. *Reviews in Mineralogy and Geochemistry*, 60, 221–364. ```doi:10.2138/rmg.2006.60.3```.
 
 ## Contact
 If you encounter any issues, questions, or have suggestions, please contact the author via email: ```zilong.wang@pku.edu.cn```.
