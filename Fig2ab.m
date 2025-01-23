@@ -42,8 +42,8 @@ errorbar(MT_pl, MT_px, MT_pl_err, MT_pl_err, MT_px_err, MT_px_err, ...
 MT=scatter(MT_pl, MT_px, 70,'filled','square','MarkerFaceColor',[83 3 237]./255);
 
 % Atypical Apollo-15 Fe-norite data
-A15_px=data(40:46,6); A15_px_err=data(40:46,7);
-A15_pl=data(40:46,4); A15_pl_err=data(40:46,5);
+A15_px=data(40:51,6); A15_px_err=data(40:51,7);
+A15_pl=data(40:51,4); A15_pl_err=data(40:51,5);
 errorbar(A15_pl, A15_px, A15_pl_err, A15_pl_err, A15_px_err, A15_px_err, ...
     'LineStyle', 'none', 'Color', 'k','CapSize',0);
 A15=scatter(A15_pl, A15_px, 70,'filled','diamond','MarkerFaceColor',C(1,:));
@@ -103,7 +103,9 @@ nexttile;
 
 % Fig. 2b data preprocessing
 REE=data2(54:64,15:28); REE(4,:)=[]; REE(7,:)=[];
-REE_L89=data2(37:44,15:28);
+REE_L89=data2([37:44,47:48],15:28);
+% We omitted the data2(45:46,15:28) as they contain abnormally high REE contents.
+
 Arguin_REE=cell2mat(data2(50:52,15:28));
 
 for i = 1:numel(REE)
