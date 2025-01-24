@@ -37,15 +37,15 @@ This repository contains supplementary MATLAB codes and associated data files fo
   * Output:
     * A PDF file named ```fig3.pdf```, corresponding to Fig. 3 in the manuscript.
 ### 4. ```Fig5.m```
-  * Purpose: Generates Fig. 5 in the manuscript.
-  * Required Data Files:
+* Purpose: Generates Fig. 5 in the manuscript.
+* Required Data Files:
     1. ```fig5_data.xlsx```:
        * Contains parental magma REE compositions calculated from reported mineral trace-element compositions of KREEP-free Mg-suite clasts in lunar meteorites.
        * Sources: Cao et al. (2024), Gross et al. (2020), Hulsey & O'Sullivan (2024), Roberts et al. (2019).
     2. Intermediate ```.mat``` files:
        * ```fig5_mantle.mat```: Lunar mantle REE compositions (CI-chondrite unnormalized) generated from ```Make_primary.m```.
        * ```fig5_melt.mat```: Partial melt REE compositions (CI-chondrite normalized) generated from ```Make_primary.m```.
-  * Additional Required Scripts:
+* Additional Required Scripts:
     1. ```Make_primary.m```
        * Reconstructs trace element compositions of a cumulate lunar mantle region.
        * Uses the ```makemantle``` function and needs to specify:
@@ -57,8 +57,16 @@ This repository contains supplementary MATLAB codes and associated data files fo
     2. ```melt_calc.m```:
        * Models REE contents of partial melts from the lunar mantle region.
        * Requires inputs such as melting degree (F) and melting mode (batch or fractional).
-  * Output:
+* Output:
     * A PDF file named ```fig5.pdf```, corresponding to Fig. 5 in the manuscript.
+
+### 5. ```Crater_diameter.m```
+
+* Purpose: Generates Supplementary Fig. 10 in the manuscript.
+* This code implements Monte Carlo method to give a possible range of the minimum diameter of Arguin 002 source crater, using the methods described in Pang et al. (2016) and Nagaoka et al. (2021).
+* No input needed, but users should adjust the parameter values in the code to fit their own samples.
+* Output:
+  * A PDF file named ```supp_fig10.pdf```, corresponding to Fig. 10 in the Supplementary Information.
 
 ## Notes
   * Ensure all required ```.xlsx``` files and additional scripts (```Make_primary.m```, ```melt_calc.m```) are in the same directory as the main MATLAB scripts before execution.
@@ -69,7 +77,9 @@ This repository contains supplementary MATLAB codes and associated data files fo
 * Gross, J., Hilton, A., Prissel, T. C., Setera, J. B., Korotev, R. L., and Calzada-Diaz, A. (2020). Geochemistry and Petrogenesis of Northwest Africa 10401: A New Type of the Mg-Suite Rocks. *Journal of Geophysical Research: Planets*, 125, e2019JE006225. ```doi:10.1029/2019JE006225```.
 * Elardo, S. M. and Astudillo Manosalva, D. F. (2023). Complexity and ambiguity in the relationships between major lunar crustal lithologies and meteoritic clasts inferred from major and trace element modeling. *Geochimica et Cosmochimica Acta*, 354, 13–26. ```doi:10.1016/j.gca.2023.05.020```.
 * Hulsey, C. R., and O’Sullivan, K. M. (2024). Petrographic and geochemical analysis of lunar meteorite NWA 11788: Parallels with Luna 20 and the Apollo magnesian granulites. *Meteoritics & Planetary Science*, 1-26. ```doi: 10.1111/maps.14248```.
+* Nagaoka, H., Ohtake, M., Shirai, N., et al. (2021). Investigation of the source region of the lunar-meteorite group with the remote sensing datasets: Implication for the origin of mare volcanism in Mare Imbrium. *Icarus* 370, 114690. ```doi:10.1016/j.icarus.2021.114690```.
 * Korotev, R. L., and Irving, A. J. (2021). Lunar meteorites from northern Africa. *Meteoritics & Planetary Science*, 56, 206–240. ```doi:10.1111/maps.13617```.
+* Pang, R. L., Zhang, A. C., Wang, S. Z., et al. (2016). High-pressure minerals in eucrite suggest a small source crater on Vesta. *Scientific Report*s 6, 26063. ```doi:10.1038/srep26063```.
 * Roberts, S. E., McCanta, M. C., Jean, M. M., and Taylor, L. A. (2019). New lunar meteorite NWA 10986: A mingled impact melt breccia from the highlands—A complete cross section of the lunar crust. *Meteoritics & Planetary Science*, 54, 3018–3035. ```doi:10.1111/maps.13406```.
 * Shervais, J. W., and McGee, J. J. (1999). Petrology of the Western Highland Province: Ancient crust formation at the Apollo 14 site. *Journal of Geophysical Research*, 104, 5891–5920. ```doi:10.1029/1998JE900025```.
 * Wieczorek, M. A., Jolliff, B. L., Khan, A., Pritchard, M. E., Weiss, B. P., Williams, J. G., Hood, L. L., Righter, K., Neal, C. R., Shearer, C. K., McCallum, I. S., Tompkins, S., Hawke, B. R., Peterson, C., and Gillis, J. J. (2006). The Constitution and Structure of the Lunar Interior. *Reviews in Mineralogy and Geochemistry*, 60, 221–364. ```doi:10.2138/rmg.2006.60.3```.
